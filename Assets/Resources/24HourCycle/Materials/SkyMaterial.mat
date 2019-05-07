@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkyMaterial
+  m_Shader: {fileID: 4800000, guid: 1cf43e98b10ccc240bf006c736796030, type: 3}
+  m_ShaderKeywords: MIDDLEPOINT_ON STAR_ON _MIDDLEPOINT_ON _MOONDISK_NONE _STAR_ON
+    _SUNDISK_NONE _SUNDISK_NONE0 _XENCLOUD_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AgileCloudMainTex:
+        m_Texture: {fileID: 8900000, guid: fabba67bd5ec01c41bc252528df69ebb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudDetailTex:
+        m_Texture: {fileID: 2800000, guid: 3d5e54a95b9dd9948a28bc2b2430f1ad, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _CloudMainNoiseTex:
+        m_Texture: {fileID: 2800000, guid: d5319d3a0288a944a81632014adf9f6d, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: 3d5e54a95b9dd9948a28bc2b2430f1ad, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNoiseTex:
+        m_Texture: {fileID: 2800000, guid: d5319d3a0288a944a81632014adf9f6d, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarNoise:
+        m_Texture: {fileID: 2800000, guid: 721c76bda74cc494382c7d9260c0c25d, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _WispyCloudTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _XenCloudDetailTex:
+        m_Texture: {fileID: 2800000, guid: 8b0f4b9af45729a478dd01f8308f3039, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _XenCloudMainNoiseTex:
+        m_Texture: {fileID: 2800000, guid: e4f0f4e5e8652a74d9934847066df1a5, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 2}
+    m_Floats:
+    - _AgileCloudAlpha: 0.216
+    - _AgileCloudBrightColorCoe: 0.49
+    - _AgileCloudDarkColorCoe: 0
+    - _AgileCloudDayTime: 0
+    - _AgileCloudHeight: 1
+    - _AgileCloudLuminance: 0.18888889
+    - _AgileCloudPower: 0.2
+    - _AgileCloudRimColorCoe: 1.6
+    - _AgileCloudSecondColorCoe: 0
+    - _AlphaItensity: 0.5
+    - _AlphaThreshold: 0.55
+    - _BlendItensity: 0.75
+    - _BlendRange: 0.3
+    - _BumpScale: 1
+    - _CloudAlphaItensity: 0.5
+    - _CloudAlphaThreshold: 0.76
+    - _CloudBlendItensity: -0.38
+    - _CloudBlendRange: 0.41
+    - _CloudDetailItensity: 2.53
+    - _CloudMaskIntensity: 0.211
+    - _Cutoff: 0.5
+    - _DetailItensity: 1.6
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Exponent: 1
+    - _FogDistIntensity: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Intensity: 1
+    - _Metallic: 0
+    - _MiddleTime: 0.47058824
+    - _Mode: 0
+    - _MoonDisk: 0
+    - _MoonDiskIntensity: 0.53
+    - _MoonIntensity: 0.56
+    - _MoonLightCloudIntensity: 0.3
+    - _MoonLightIntensity: 0.28
+    - _MoonLightSkyIntensity: 0.187
+    - _MoonSize: 0.08
+    - _MoonSizeConvergence: 3.25
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ProceduralCloudAltitude: 0.4
+    - _RadiusHeight: 1
+    - _SkyMaskIntensity: 0.5
+    - _SkyRotation: 0
+    - _SkyStartHeight: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarIntensity: 1
+    - _SunDisk: 0
+    - _SunDiskIntensity: 1
+    - _SunIntensity: 1
+    - _SunLightCloudIntensity: 0.33
+    - _SunLightIntensity: 1.22
+    - _SunLightSkyIntensity: 0.2
+    - _SunSize: 0.04
+    - _SunSizeConvergence: 5
+    - _UVSec: 0
+    - _UpVectorPitch: 0
+    - _UpVectorYaw: 0
+    - _WispyCloudDirection: 0
+    - _WispyCoverage: 1
+    - _XenCloudAlphaIntensity: 0.5
+    - _XenCloudAlphaItensity: 0.5
+    - _XenCloudAlphaThreshold: 0.55
+    - _XenCloudBlendIntensity: -0.62
+    - _XenCloudBlendItensity: 0.75
+    - _XenCloudBlendRange: 0.535
+    - _XenCloudBrightColorCoe: 0.97
+    - _XenCloudDarkColorCoe: 0.347
+    - _XenCloudDetailIntensity: 1.6
+    - _XenCloudDetailItensity: 1.6
+    - _XenCloudHDRCoe: 1
+    - _XenCloudMaskIntensity: 0.5
+    - _ZWrite: 1
+    m_Colors:
+    - _AgileCloudBrightColor: {r: 0.76142585, g: 0.56455284, b: 0.406586, a: 0.3845752}
+    - _AgileCloudDarkColor: {r: 0.42983863, g: 0.44665954, b: 0.40570784, a: 0.7034423}
+    - _AgileCloudMainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AgileCloudRimColor: {r: 0.7942535, g: 0.68478775, b: 0.42440766, a: 0.38962963}
+    - _AgileCloudSecondColor: {r: 0.49909022, g: 0.3639477, b: 0.36472845, a: 0.7797822}
+    - _AgileCloudSkyColorDown: {r: 0.96862745, g: 0.9882353, b: 1, a: 1}
+    - _AgileCloudSkyColorUp: {r: 0.36862746, g: 0.6431373, b: 0.8980392, a: 1}
+    - _BottomColor: {r: 0.31293744, g: 0.23718406, b: 0.7735849, a: 1}
+    - _BrightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _CloudBrightColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    - _CloudDarkColor: {r: 0.48264506, g: 0.5256616, b: 0.5471698, a: 1}
+    - _Color: {r: 0.8867924, g: 0.43675175, b: 0.11294055, a: 1}
+    - _Color1: {r: 0.8490566, g: 0.58728886, b: 0.38848346, a: 0}
+    - _Color2: {r: 0.14748877, g: 0.100302614, b: 0.9245283, a: 0}
+    - _DarkColor: {r: 0.57254905, g: 0.69411767, b: 0.8117647, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EndColor: {r: 0.9150943, g: 0.11654504, b: 0.19693945, a: 1}
+    - _GroundColor: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+    - _MiddleColor: {r: 0.21134719, g: 0.13953574, b: 0.51165366, a: 1}
+    - _MoonColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StartColor: {r: 0, g: 0, b: 1, a: 1}
+    - _SunColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TopColor: {r: 0.09705814, g: 0.029681385, b: 0.21698111, a: 1}
+    - _UpVector: {r: 0, g: 1, b: 0, a: 0}
+    - _WispyBright: {r: 0.19999996, g: 0.10999996, b: 0.059999965, a: 1}
+    - _WispyColor: {r: 1, g: 0.91, b: 0.83, a: 1}
+    - _WispyDarkness: {r: 0.56999993, g: 0.75, b: 1, a: 1}
+    - _XenCloudBrightColor: {r: 0.99984276, g: 0.99909407, b: 0.9977785, a: 0}
+    - _XenCloudDarkColor: {r: 0.98031974, g: 0.9802578, b: 0.9799317, a: 0}

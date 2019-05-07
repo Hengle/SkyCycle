@@ -1,0 +1,299 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &444226809717396622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444226809717396623}
+  - component: {fileID: 444226809717396616}
+  m_Layer: 0
+  m_Name: 24HourCycle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444226809717396623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444226809717396622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 444226810451852349}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &444226809717396616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444226809717396622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed60f6efe11bb90499cfb75022644a01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSlot: {x: 6, y: 12, z: 18, w: 24}
+  isUseCurve: 0
+  cycleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 5.335753
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 24
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
+  currentTime: {x: 12, y: 1, z: 30}
+  deltaTime: 10
+  isCycle: 0
+  isPause: 0
+  isCameraRotate: 0
+  skyMorningGradient:
+    serializedVersion: 2
+    key0: {r: 0.8773585, g: 0.7577496, b: 0.28555536, a: 1}
+    key1: {r: 0.6552599, g: 0.86555713, b: 0.8962264, a: 1}
+    key2: {r: 0.4141153, g: 0.7015009, b: 0.8867924, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 17540
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  agileMainCloudMorningColor: {r: 1, g: 1, b: 1, a: 1}
+  agileBrightCloudMorningColor: {r: 0.9245283, g: 0.6721075, b: 0.44045925, a: 0.48235294}
+  agileDarkCloudMorningColor: {r: 0.5200694, g: 0.5471698, b: 0.49296904, a: 0.7254902}
+  agileSecondCloudMorningColor: {r: 0.5471698, g: 0.3484336, b: 0.3484336, a: 0.88235295}
+  agileRimCloudMorningColor: {r: 0.9150943, g: 0.74413925, b: 0.375534, a: 0.32156864}
+  xenBrightCloudMorningColor: {r: 0.8207547, g: 0.67314285, b: 0.28261834, a: 0}
+  xenDarkCloudMorningColor: {r: 0.8773585, g: 0.55869526, b: 0.55869526, a: 0.50980395}
+  skyNoonGradient:
+    serializedVersion: 2
+    key0: {r: 0.7971698, g: 0.9115869, b: 1, a: 1}
+    key1: {r: 0.39489147, g: 0.5954778, b: 0.9622642, a: 1}
+    key2: {r: 0.31910825, g: 0.49466643, b: 0.9528302, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 32382
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 31997
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 3
+  agileMainCloudNoonColor: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 0.94509804}
+  agileBrightCloudNoonColor: {r: 0.7729619, g: 0.8419544, b: 0.8490566, a: 0}
+  agileDarkCloudNoonColor: {r: 0.5377358, g: 0.50476146, b: 0.50476146, a: 0}
+  agileSecondCloudNoonColor: {r: 0.6509434, g: 0.5557583, b: 0.5557583, a: 0}
+  agileRimCloudNoonColor: {r: 0.30495727, g: 0.46702006, b: 0.7264151, a: 1}
+  xenBrightCloudNoonColor: {r: 1, g: 1, b: 1, a: 0}
+  xenDarkCloudNoonColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0}
+  skyDuskGradient:
+    serializedVersion: 2
+    key0: {r: 0.8490566, g: 0.4513538, b: 0.23629406, a: 1}
+    key1: {r: 0.48865256, g: 0.655751, b: 0.745283, a: 1}
+    key2: {r: 0.19166073, g: 0.38684994, b: 0.6886792, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 26792
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  agileMainCloudDuskColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 0.9647059}
+  agileBrightCloudDuskColor: {r: 0.9150943, g: 0.48826712, b: 0.28920433, a: 0}
+  agileDarkCloudDuskColor: {r: 0.4433962, g: 0.37437698, b: 0.37437698, a: 0.8862745}
+  agileSecondCloudDuskColor: {r: 0.4442417, g: 0.536238, b: 0.6320754, a: 0.6}
+  agileRimCloudDuskColor: {r: 0.8867924, g: 0.64365655, b: 0.35555357, a: 0}
+  xenBrightCloudDuskColor: {r: 0.9433962, g: 0.6738611, b: 0.20024922, a: 0}
+  xenDarkCloudDuskColor: {r: 0.6886792, g: 0.6663996, b: 0.5489943, a: 0}
+  skyNightGradient:
+    serializedVersion: 2
+    key0: {r: 0.018244922, g: 0.047068678, b: 0.09433961, a: 1}
+    key1: {r: 0.014017446, g: 0.035655584, b: 0.084905684, a: 1}
+    key2: {r: 0.021226421, g: 0.037146237, b: 0.084905684, a: 0}
+    key3: {r: 0.021226421, g: 0.037146237, b: 0.084905684, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 12914
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  agileMainCloudNightColor: {r: 1, g: 1, b: 1, a: 1}
+  agileBrightCloudNightColor: {r: 0.25729087, g: 0.23211108, b: 0.3018868, a: 0.08235294}
+  agileDarkCloudNightColor: {r: 0.1509434, g: 0.13599145, b: 0.13599145, a: 0.63529414}
+  agileSecondCloudNightColor: {r: 0.3504806, g: 0.41190022, b: 0.41509432, a: 0.4627451}
+  agileRimCloudNightColor: {r: 0.42074582, g: 0.5013376, b: 0.5754717, a: 0.6}
+  xenBrightCloudNightColor: {r: 0.60287106, g: 0.508366, b: 0.9056604, a: 0}
+  xenDarkCloudNightColor: {r: 0.2924528, g: 0.24968849, b: 0.24968849, a: 0}
+  skyRotation: 0
+  skyMaskIntenstiy: 0.5
+  groudColor: {r: 0.369, g: 0.349, b: 0.341, a: 1}
+  sunDiskType: 0
+  sunSize: 0.04
+  sunSizeConvergence: 5
+  sunDiskIntensity: 1
+  sunLightCloudIntensity: 0.33
+  sunLightSkyIntensity: 0.2
+  moonDiskType: 0
+  moonSize: 0.08
+  moonSizeConvergence: 3.25
+  moonDiskIntensity: 0.53
+  moonLightCloudIntensity: 0.3
+  moonLightSkyIntensity: 0.187
+  cloudType: 1
+  proceduralCloudAltitude: 0.4
+  wispyCloudDirection: 0
+  xenCloudMainNoiseTex: {fileID: 2800000, guid: d5319d3a0288a944a81632014adf9f6d,
+    type: 3}
+  xenCloudMainNoiseTexScale: {x: 2, y: 2}
+  xenCloudDetailTex: {fileID: 2800000, guid: 3d5e54a95b9dd9948a28bc2b2430f1ad, type: 3}
+  xenCloudDetailTexScale: {x: 2, y: 2}
+  xenCloudMotionSpeed: {x: 10, y: 10, z: 1, w: 1}
+  _XenCloudBrightColorCoe: 0.97
+  xenCloudDarkColorCoe: 0.347
+  xenCloudHDRCoe: 1
+  xenCloudAlphaIntensity: 0.5
+  xenCloudAlphaThreshold: 0.55
+  xenCloudDetailIntensity: 1.6
+  xenCloudBlendIntensity: -0.62
+  xenCloudBlendRange: 0.535
+  xenCloudMaskIntensity: 0.5
+  agileCloudMainTex: {fileID: 8900000, guid: fabba67bd5ec01c41bc252528df69ebb, type: 3}
+  agileCloudRimColorCoe: 1.6
+  agileCloudLuminance: 0.1
+  agileCloudHeight: 1
+  agileCloudPower: 0.2
+  starIntensity: 1
+--- !u!1 &444226810451852348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 444226810451852349}
+  m_Layer: 0
+  m_Name: TestCamTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444226810451852349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444226810451852348}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 300.39163, y: 323.2979, z: 195.38513}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 444226809717396623}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
